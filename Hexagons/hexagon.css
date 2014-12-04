@@ -9,13 +9,22 @@
 
 .hexagon {
   margin: 0 auto;
-  width:225px;
-  height: 200px;
   -webkit-clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
   background:black;
   overflow:hidden;
   display:inline-block;
 }
+
+
+.hex-large {
+  width:225px;
+  height: 200px;
+}
+.hex-small {
+  width:80px;
+  height: 70px;
+}
+
 
 
 /*  Hexagon List space fix  */
@@ -95,3 +104,4 @@
 .hexa-text-info {
   font-size: 14px;
 }
+
